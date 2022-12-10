@@ -33,9 +33,4 @@ public class Cat {
     public String getEyeColor() {
         return eyeColor;
     }
-
-    public void introduction() {
-        System.out.println("この子の名前は" + getName() + "です。" + getAge() + "の" + getCatBreed() + "で、好きな食べ物は" + getLikeFood() + "です。");
-    }
-
-}
+ }
