@@ -3,12 +3,14 @@ public class Cat {
     private String catBreed;         //猫の種類
     private String likeFood;         //好きな食べ物
     private int age;                 //年齢
+    private String eyeColor;         //瞳の色
 
-    public Cat(String name, String catBreed, String likeFood, int age) {
+    public Cat(String name, String catBreed, String likeFood, int age, String eyeColor) {
         this.name = name;
         this.catBreed = catBreed;
         this.likeFood = likeFood;
         this.age = age;
+        this.eyeColor = eyeColor;
 
     }
 
@@ -28,8 +30,7 @@ public class Cat {
         return age;
     }
 
-    public void introduction() {
-        System.out.println("この子の名前は" + getName() + "です。" + getAge() + "の" + getCatBreed() + "で、好きな食べ物は" + getLikeFood() + "です。");
+    public String getEyeColor() {
+        return eyeColor;
     }
-
-}
+ }
