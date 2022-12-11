@@ -23,4 +23,5 @@ public class Cat {
     public int getAge() {
         return age;
     }
+
  }
