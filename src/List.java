@@ -13,6 +13,7 @@ public class List {
         catList[3] = catD;
         catList[4] = catE;
 
+        //愚直な書き方
         for (int i = 0; i < catList.length; i++) {
             System.out.println("この子の名前は、「" + catList[i].getName() + "」です。" + catList[i].getAge() + "歳の" + catList[i].getCatBreed() + "です。" + "好きな食べ物は" + catList[i].getLikeFood() +  "です。");
         }
