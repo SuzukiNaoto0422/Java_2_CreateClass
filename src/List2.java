@@ -1,12 +1,11 @@
-import javax.xml.namespace.QName;
-
 public class List2 {
     public static void main(String[] args) {
-        Cat catA = new Cat("まめだいふく" ,"マンチカン","魚",3,"青");
-        Cat catB = new Cat("とらまる","キジトラ","魚",10, "黄");
-        Cat catC = new Cat("たま","三毛猫","鶏肉",15, "黄");
-        Cat catD = new Cat("じろう","キジトラ","海苔",8, "黄");
-        Cat catE = new Cat("まるお","スコティッシュフォールド","お米",15, "青");
+        Cat catA = new Cat("まめだいふく" ,"マンチカン","魚",3);
+        Cat catB = new Cat("とらまる","キジトラ","魚",10);
+        Cat catC = new Cat("たま","三毛猫","鶏肉",15);
+        Cat catD = new Cat("じろう","キジトラ","海苔",8);
+        Cat catE = new Cat("まるお","スコティッシュフォールド","お米",15);
+
 
         //List9行目はこうも書ける
         Cat[] catList = new Cat[]{catA,catB,catC,catD,catE};
