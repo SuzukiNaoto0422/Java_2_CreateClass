@@ -15,6 +15,9 @@ public class List2 {
             System.out.println("この子の名前は、「" + cat.getName() + "」です。" + cat.getAge() + "歳の" + cat.getCatBreed() + "です。" + "好きな食べ物は" + cat.getLikeFood() +  "です。");
         }
 
+        System.out.println("\n");
+
+
         for (Cat cat : catList) {
             if (cat.getLikeFood().equals("魚")) {
                 System.out.println(cat.getName() + "は魚が好きです。");
