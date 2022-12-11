@@ -6,6 +6,7 @@ public class List {
         Cat catD = new Cat("じろう","キジトラ","海苔",8);
         Cat catE = new Cat("まるお","スコティッシュフォールド","お米",15);
 
+        //見にくいかも
         Cat[] catList = new Cat[5];
         catList[0] = catA;
         catList[1] = catB;
