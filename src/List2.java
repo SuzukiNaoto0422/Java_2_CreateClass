@@ -8,17 +8,17 @@ public class List2 {
 
 
         //List9行目はこうも書ける
-        Cat[] catList = new Cat[]{catA,catB,catC,catD,catE};
+        Cat[] cats = new Cat[]{catA,catB,catC,catD,catE};
 
         //拡張for文
-        for(Cat cat : catList) {
+        for(Cat cat : cats) {
             System.out.println("この子の名前は、「" + cat.getName() + "」です。" + cat.getAge() + "歳の" + cat.getCatBreed() + "です。" + "好きな食べ物は" + cat.getLikeFood() +  "です。");
         }
 
         System.out.println("\n");
 
 
-        for (Cat cat : catList) {
+        for (Cat cat : cats) {
             if (cat.getLikeFood().equals("魚")) {
                 System.out.println(cat.getName() + "は魚が好きです。");
             } else if (cat.getLikeFood().equals("鶏肉")) {
